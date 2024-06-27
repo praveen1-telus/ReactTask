@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+.counter {
+  display: flex;
+
+}
+.image-container {
+  position: relative;
+}
+.centered-heading {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  text-shadow: 6px 1px 5px rgba(0, 0, 0, 0.5); 
+}
+.required::after {
+  content: " *";
+  color: red;
+}
+.img-fluid{
+  height: 900px;
+  padding-right: 1pc;
+}
+.btn-container{
+  gap: 15px;
+}
